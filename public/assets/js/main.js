@@ -221,20 +221,61 @@ if (inputSearch) {
     parentInput.classList.remove("focused");
   });
 
+  // inputSearch.addEventListener("keyup", function () {
+  //   if (this.value.length >= 2) {
+  //     let targetId = "";
+  //     const pattern = this.value.toLowerCase();
+  //     const elementTargets = document.querySelectorAll(".content-item");
+  //     for (let i = 0; i < elementTargets.length; i++) {
+  //       const text = elementTargets[i].querySelectorAll("h2");
+  //       var index = text[0].innerText.toLowerCase().indexOf(pattern);
+  //       if (index != -1) {
+  //         targetId = elementTargets[i].id;
+  //         document.getElementById(targetId).scrollIntoView();
+  //         break;
+  //       }
+  //     }
+  //   }
+  // });
+
   inputSearch.addEventListener("keyup", function () {
     if (this.value.length >= 2) {
       let targetId = "";
       const pattern = this.value.toLowerCase();
       const elementTargets = document.querySelectorAll(".content-item");
       for (let i = 0; i < elementTargets.length; i++) {
-        const text = elementTargets[i].querySelectorAll("h2");
-        var index = text[0].innerText.toLowerCase().indexOf(pattern);
-        if (index != -1) {
-          targetId = elementTargets[i].id;
-          document.getElementById(targetId).scrollIntoView();
-          break;
+        const datas = elementTargets[i].querySelectorAll("span");
+        for (let t = 0; t < datas.length; t++) {
+          var text = datas[t].innerText;
+          var index = text.toLowerCase().indexOf(pattern);
+          if (index != -1) {
+            targetId = elementTargets[i].id;
+            document.getElementById(targetId).scrollIntoView();
+            break;
+          }
         }
       }
     }
   });
+}
+
+
+// SCROLL SIDEBAR
+const sidebarWrapper = document.querySelector('aside.sidebar')
+if(sidebarItem){
+  // console.log(sidebarItem)
+  sidebarWrapper.addEventListener("scroll",function(){
+    sidebarItem.forEach((linkSidebar,index) => {
+      linkSidebar.classList.remove("active")
+      const siapa = linkSidebar.getBoundingClientRect().top
+      if(siapa < 225 && siapa > 100){
+        const linkFull = linkSidebar.querySelector('a')
+        const href = linkFull.href.split('#')[1]
+        const parent = linkFull.parentElement
+        parent.classList.add("active")
+        const target = document.getElementById(href)
+        target.scrollIntoView()
+      }
+    });
+  })
 }
