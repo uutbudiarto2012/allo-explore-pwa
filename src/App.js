@@ -1,17 +1,14 @@
 import { Helmet } from "react-helmet";
-import Home from "./pages/Home";
-import InstallModal from "./components/InstallModal";
 import "./App.css";
-import { useEffect, useState } from "react";
-import { reactLocalStorage } from "reactjs-localstorage";
+import Home from "./pages/Home";
 
 function App() {
-  const [isInstalled, setIsInstalled] = useState(false);
+  // const [isInstalled, setIsInstalled] = useState(false);
 
-  useEffect(() => {
-    const check = reactLocalStorage.get("alloExplorePWA");
-    setIsInstalled(check && true);
-  }, [isInstalled]);
+  // useEffect(() => {
+  //   const check = reactLocalStorage.get("alloExplorePWA");
+  //   setIsInstalled(check && true);
+  // }, [isInstalled]);
 
   return (
     <>
@@ -22,7 +19,7 @@ function App() {
         <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="/assets/js/main.js"></script>
       </Helmet>
-      {!isInstalled && <InstallModal />}
+      {/* {!isInstalled && <InstallModal />} */}
     </>
   );
 }
