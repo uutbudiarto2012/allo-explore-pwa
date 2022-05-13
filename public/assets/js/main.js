@@ -15,6 +15,7 @@ contentContainer.addEventListener("scroll", function () {
   const ticket = document.querySelector("#ticket");
   const tikectPosition = ticket.getBoundingClientRect();
   if (tikectPosition.top <= 144 && tikectPosition.top >= 113) {
+    
     sidebarItem.forEach((item) => {
       const linkNya = item.querySelector("a[href='#ticket']");
       if (linkNya) {

@@ -13,9 +13,10 @@ const MediaEntertainment = () => {
             urlTarget="/#"
           />
           <CardItem
+            isBlank
             title="Detik"
             image="/assets/images/media/2.png"
-            urlTarget="/#"
+            urlTarget="https://detik.com"
           />
           <CardItem
             title="CNN"

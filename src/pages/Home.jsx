@@ -1,5 +1,6 @@
 import React from 'react'
 import AppHeader from '../components/AppHeader'
+import Banner from '../components/Banner'
 import {
   BankFinance,
   Events,
@@ -23,6 +24,7 @@ const Home = () => {
   return (
     <>
       <AppHeader />
+      <Banner />
       <main>
         <Sidebar />
         <div className="content">
