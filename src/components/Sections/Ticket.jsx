@@ -9,18 +9,18 @@ const Ticket = () => {
         <div className="row g-2">
           <CardItem
             title="Antavaya"
-            image="/assets/images/ticket/1.png"
+            image="./assets/images/ticket/1.png"
             urlTarget="/#"
           />
           <CardItem
             title="Trans Hotel Group"
-            image="/assets/images/ticket/2.png"
+            image="./assets/images/ticket/2.png"
             urlTarget="/#"
           />
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Ticket

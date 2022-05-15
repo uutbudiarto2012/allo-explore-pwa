@@ -9,18 +9,18 @@ const MallProperty = () => {
         <div className="row g-2">
           <CardItem
             title="Trans Shopping Mall"
-            image="/assets/images/mall-property/1.png"
+            image="./assets/images/mall-property/1.png"
             urlTarget="/#"
           />
           <CardItem
             title="TransProperty"
-            image="/assets/images/mall-property/2.png"
+            image="./assets/images/mall-property/2.png"
             urlTarget="/#"
           />
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default MallProperty

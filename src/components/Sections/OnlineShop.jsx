@@ -9,38 +9,38 @@ const OnlineShop = () => {
         <div className="row g-2">
           <CardItem
             title="Groceries"
-            image="/assets/images/online-shopping/1.png"
+            image="./assets/images/online-shopping/1.png"
             urlTarget="/#"
           />
           <CardItem
             title="Fashion"
-            image="/assets/images/online-shopping/2.png"
+            image="./assets/images/online-shopping/2.png"
             urlTarget="/#"
           />
           <CardItem
             title="Mom & Baby"
-            image="/assets/images/online-shopping/3.png"
+            image="./assets/images/online-shopping/3.png"
             urlTarget="/#"
           />
           <CardItem
             title="Gadged"
-            image="/assets/images/online-shopping/4.png"
+            image="./assets/images/online-shopping/4.png"
             urlTarget="/#"
           />
           <CardItem
             title="Beauty"
-            image="/assets/images/online-shopping/5.png"
+            image="./assets/images/online-shopping/5.png"
             urlTarget="/#"
           />
           <CardItem
             title="Promo"
-            image="/assets/images/online-shopping/6.png"
+            image="./assets/images/online-shopping/6.png"
             urlTarget="/#"
           />
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default OnlineShop

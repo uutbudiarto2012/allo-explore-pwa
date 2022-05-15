@@ -5,7 +5,7 @@ const Sidebar = () => {
     <aside className="sidebar">
       <div className="sidebar-item active">
         <img
-          src="/assets/images/category/online-shopping.png"
+          src="./assets/images/category/online-shopping.png"
           alt="online-shopping"
         />
         <div className="layer"></div>
@@ -15,7 +15,7 @@ const Sidebar = () => {
       </div>
       <div className="sidebar-item">
         <img
-          src="/assets/images/category/hyper-market.png"
+          src="./assets/images/category/hyper-market.png"
           alt="online-shopping"
         />
         <div className="layer"></div>
@@ -25,7 +25,7 @@ const Sidebar = () => {
       </div>
       <div className="sidebar-item">
         <img
-          src="/assets/images/category/gadgets-and-electronic.png"
+          src="./assets/images/category/gadgets-and-electronic.png"
           alt="online-shopping"
         />
         <div className="layer"></div>
@@ -35,7 +35,7 @@ const Sidebar = () => {
       </div>
       <div className="sidebar-item">
         <img
-          src="/assets/images/category/home-living.png"
+          src="./assets/images/category/home-living.png"
           alt="online-shopping"
         />
         <div className="layer"></div>
@@ -45,7 +45,7 @@ const Sidebar = () => {
       </div>
       <div className="sidebar-item">
         <img
-          src="/assets/images/category/healt-and-beauty.png"
+          src="./assets/images/category/healt-and-beauty.png"
           alt="online-shopping"
         />
         <div className="layer"></div>
@@ -54,10 +54,7 @@ const Sidebar = () => {
         </a>
       </div>
       <div className="sidebar-item">
-        <img
-          src="/assets/images/category/fashion.png"
-          alt="online-shopping"
-        />
+        <img src="./assets/images/category/fashion.png" alt="online-shopping" />
         <div className="layer"></div>
         <a href="#fashion" className="sidebar-link">
           <span className="text-menu">Fashion</span>
@@ -65,7 +62,7 @@ const Sidebar = () => {
       </div>
       <div className="sidebar-item">
         <img
-          src="/assets/images/category/food-and-beverage.png"
+          src="./assets/images/category/food-and-beverage.png"
           alt="online-shopping"
         />
         <div className="layer"></div>
@@ -75,7 +72,7 @@ const Sidebar = () => {
       </div>
       <div className="sidebar-item">
         <img
-          src="/assets/images/category/ticket-and-hotel.png"
+          src="./assets/images/category/ticket-and-hotel.png"
           alt="online-shopping"
         />
         <div className="layer"></div>
@@ -85,7 +82,7 @@ const Sidebar = () => {
       </div>
       <div className="sidebar-item">
         <img
-          src="/assets/images/category/themepark-and-entertainment.png"
+          src="./assets/images/category/themepark-and-entertainment.png"
           alt="online-shopping"
         />
         <div className="layer"></div>
@@ -95,7 +92,7 @@ const Sidebar = () => {
       </div>
       <div className="sidebar-item">
         <img
-          src="/assets/images/category/mall-and-property.png"
+          src="./assets/images/category/mall-and-property.png"
           alt="online-shopping"
         />
         <div className="layer"></div>
@@ -105,7 +102,7 @@ const Sidebar = () => {
       </div>
       <div className="sidebar-item">
         <img
-          src="/assets/images/category/bank-and-finance.png"
+          src="./assets/images/category/bank-and-finance.png"
           alt="online-shopping"
         />
         <div className="layer"></div>
@@ -115,7 +112,7 @@ const Sidebar = () => {
       </div>
       <div className="sidebar-item">
         <img
-          src="/assets/images/category/media-entertainment.png"
+          src="./assets/images/category/media-entertainment.png"
           alt="online-shopping"
         />
         <div className="layer"></div>
@@ -124,37 +121,28 @@ const Sidebar = () => {
         </a>
       </div>
       <div className="sidebar-item">
-        <img
-          src="/assets/images/category/game.png"
-          alt="online-shopping"
-        />
+        <img src="./assets/images/category/game.png" alt="online-shopping" />
         <div className="layer"></div>
         <a href="#game" className="sidebar-link">
           <span className="text-menu">Game</span>
         </a>
       </div>
       <div className="sidebar-item">
-        <img
-          src="/assets/images/category/event.png"
-          alt="online-shopping"
-        />
+        <img src="./assets/images/category/event.png" alt="online-shopping" />
         <div className="layer"></div>
         <a href="#event" className="sidebar-link">
           <span className="text-menu">Event</span>
         </a>
       </div>
       <div className="sidebar-item">
-        <img
-          src="/assets/images/category/social.png"
-          alt="online-shopping"
-        />
+        <img src="./assets/images/category/social.png" alt="online-shopping" />
         <div className="layer"></div>
         <a href="#social" className="sidebar-link">
           <span className="text-menu">Social</span>
         </a>
       </div>
     </aside>
-  )
+  );
 }
 
 export default Sidebar

@@ -9,18 +9,18 @@ const Gadget = () => {
         <div className="row g-2">
           <CardItem
             title="ElectronicPRO"
-            image="/assets/images/gadgets/1.png"
+            image="./assets/images/gadgets/1.png"
             urlTarget="/#"
           />
           <CardItem
             title="Trans hello!"
-            image="/assets/images/gadgets/2.png"
+            image="./assets/images/gadgets/2.png"
             urlTarget="/#"
           />
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Gadget

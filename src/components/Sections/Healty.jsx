@@ -9,23 +9,23 @@ const Healty = () => {
         <div className="row g-2">
           <CardItem
             title="Female Daily"
-            image="/assets/images/healty/1.png"
+            image="./assets/images/healty/1.png"
             urlTarget="/#"
           />
           <CardItem
             title="Beautynesia"
-            image="/assets/images/healty/2.png"
+            image="./assets/images/healty/2.png"
             urlTarget="/#"
           />
           <CardItem
             title="Metro"
-            image="/assets/images/healty/3.png"
+            image="./assets/images/healty/3.png"
             urlTarget="/#"
           />
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Healty

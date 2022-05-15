@@ -9,29 +9,29 @@ const ThemePark = () => {
         <div className="row g-2">
           <CardItem
             title="Trans Snow World"
-            image="/assets/images/theme-park/1.png"
+            image="./assets/images/theme-park/1.png"
             urlTarget="/#"
           />
           <CardItem
             title="Trans Studio"
-            image="/assets/images/theme-park/2.png"
+            image="./assets/images/theme-park/2.png"
             urlTarget="/#"
           />
 
           <CardItem
             title="Trans Studio Mini"
-            image="/assets/images/theme-park/3.png"
+            image="./assets/images/theme-park/3.png"
             urlTarget="/#"
           />
           <CardItem
             title="Kid City"
-            image="/assets/images/theme-park/4.png"
+            image="./assets/images/theme-park/4.png"
             urlTarget="/#"
           />
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default ThemePark

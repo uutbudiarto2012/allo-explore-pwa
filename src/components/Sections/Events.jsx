@@ -9,13 +9,13 @@ const Events = () => {
         <div className="row g-2">
           <CardItem
             title="Detik Events"
-            image="/assets/images/event/1.png"
+            image="./assets/images/event/1.png"
             urlTarget="/#"
           />
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Events

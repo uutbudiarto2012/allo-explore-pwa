@@ -4,7 +4,7 @@ const AppHeader = () => {
       <div className="wrapper">
         <div className="arrow-left">
           <a href="/#">
-            <img src="/assets/images/ic_arrow_back.svg" alt="" />
+            <img src="./assets/images/ic_arrow_back.svg" alt="" />
           </a>
         </div>
         <div className="header-wrapper">
@@ -13,14 +13,19 @@ const AppHeader = () => {
       </div>
       <div className="search-wrapper">
         <div className="input-box">
-          <input type="text" className="input-search" id="input-search" placeholder="Search..." />
+          <input
+            type="text"
+            className="input-search"
+            id="input-search"
+            placeholder="Search..."
+          />
           <div className="icon">
-            <img src="/assets/images/ic_search.png" alt="" />
+            <img src="./assets/images/ic_search.png" alt="" />
           </div>
         </div>
       </div>
     </header>
-  )
+  );
 }
 
 export default AppHeader

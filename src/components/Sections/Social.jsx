@@ -9,13 +9,13 @@ const Social = () => {
         <div className="row g-2">
           <CardItem
             title="Berbuat Baik"
-            image="/assets/images/social/1.png"
+            image="./assets/images/social/1.png"
             urlTarget="/#"
           />
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Social

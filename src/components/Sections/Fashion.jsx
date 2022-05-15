@@ -9,63 +9,63 @@ const Fashion = () => {
         <div className="row g-2">
           <CardItem
             title="Salvatore Ferragamo"
-            image="/assets/images/fashion/1.png"
+            image="./assets/images/fashion/1.png"
             urlTarget="/#"
           />
           <CardItem
             title="Boss"
-            image="/assets/images/fashion/2.png"
+            image="./assets/images/fashion/2.png"
             urlTarget="/#"
           />
           <CardItem
             title="Fulra"
-            image="/assets/images/fashion/3.png"
+            image="./assets/images/fashion/3.png"
             urlTarget="/#"
           />
           <CardItem
             title="Aigner"
-            image="/assets/images/fashion/4.png"
+            image="./assets/images/fashion/4.png"
             urlTarget="/#"
           />
           <CardItem
             title="Geox"
-            image="/assets/images/fashion/5.png"
+            image="./assets/images/fashion/5.png"
             urlTarget="/#"
           />
           <CardItem
             title="Canali"
-            image="/assets/images/fashion/6.png"
+            image="./assets/images/fashion/6.png"
             urlTarget="/#"
           />
           <CardItem
             title="Find Kapoor"
-            image="/assets/images/fashion/7.png"
+            image="./assets/images/fashion/7.png"
             urlTarget="/#"
           />
           <CardItem
             title="Seen"
-            image="/assets/images/fashion/8.png"
+            image="./assets/images/fashion/8.png"
             urlTarget="/#"
           />
           <CardItem
             title="Spord"
-            image="/assets/images/fashion/9.png"
+            image="./assets/images/fashion/9.png"
             urlTarget="/#"
           />
           <CardItem
             title="Metro"
-            image="/assets/images/fashion/10.png"
+            image="./assets/images/fashion/10.png"
             urlTarget="/#"
           />
           <CardItem
             title="Transmart"
-            image="/assets/images/fashion/11.png"
+            image="./assets/images/fashion/11.png"
             urlTarget="/#"
           />
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Fashion

@@ -16,8 +16,8 @@ function App() {
         <Home />
       </div>
       <Helmet>
-        <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="/assets/js/main.js"></script>
+        <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="./assets/js/main.js"></script>
       </Helmet>
       {/* {!isInstalled && <InstallModal />} */}
     </>

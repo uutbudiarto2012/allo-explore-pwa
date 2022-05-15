@@ -75,9 +75,10 @@ body {
 }
 
 .main-wrapper {
-  width: 576px;
+  width: 420px;
   margin: 0 auto;
-  min-height: 100vh;
+  height: 100vh;
+    overflow: hidden;
   background-color: var(--color-white);
   -webkit-box-shadow: 0px 2px 7px rgba(73, 73, 73, 0.5);
           box-shadow: 0px 2px 7px rgba(73, 73, 73, 0.5);
@@ -199,7 +200,7 @@ body {
 
 main {
   padding: 0 5px 0 15px;
-  height: calc(100vh - 114px);
+  height: calc(100vh - 194px);
   overflow: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -362,15 +363,18 @@ main .content .content-item .card-category-wrapper .card-item-link span {
 .banner{
   width: 100%;
   position: relative;
+  height: 80px;
 }
 .banner img{
   width: 100%;
+  height: 100%;
+    object-fit: cover;
 }
 
 .banner .more-info{
   position: absolute;
   right: 10px;
-  top: 36%;
+  top: 30%;
   background-color: #FBAE17;
   height: 36px;
   border: none;
@@ -378,5 +382,43 @@ main .content .content-item .card-category-wrapper .card-item-link span {
   padding: 0 20px;
   font-weight: 700;
   color: #2f2f2f;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-contruction {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-contruction .modal-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contrcution-text {
+    text-align: center;
+  }
+  
+  .modal-contruction .modal-wrapper button {
+    background-color: #FBAE17;
+    padding: 5px 25px;
+    border: none;
+    font-weight: 600;
+    border-radius: 50px;
 }
 /*# sourceMappingURL=main.css.map */

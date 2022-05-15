@@ -9,28 +9,28 @@ const HomeLiving = () => {
         <div className="row g-2">
           <CardItem
             title="Metro"
-            image="/assets/images/home-living/1.png"
+            image="./assets/images/home-living/1.png"
             urlTarget="/#"
           />
           <CardItem
             title="TransLiving"
-            image="/assets/images/home-living/2.png"
+            image="./assets/images/home-living/2.png"
             urlTarget="/#"
           />
           <CardItem
             title="okiDoki"
-            image="/assets/images/home-living/3.png"
+            image="./assets/images/home-living/3.png"
             urlTarget="/#"
           />
           <CardItem
             title="TransHardware"
-            image="/assets/images/home-living/4.png"
+            image="./assets/images/home-living/4.png"
             urlTarget="/#"
           />
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default HomeLiving

@@ -9,23 +9,23 @@ const HyperMarket = () => {
         <div className="row g-2">
           <CardItem
             title="Metro"
-            image="/assets/images/hypermart/1.png"
+            image="./assets/images/hypermart/1.png"
             urlTarget="/#"
           />
           <CardItem
             title="Transmart"
-            image="/assets/images/hypermart/2.png"
+            image="./assets/images/hypermart/2.png"
             urlTarget="/#"
           />
           <CardItem
             title="Multimart"
-            image="/assets/images/hypermart/3.png"
+            image="./assets/images/hypermart/3.png"
             urlTarget="/#"
           />
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default HyperMarket

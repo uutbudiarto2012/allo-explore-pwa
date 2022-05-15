@@ -9,18 +9,18 @@ const Games = () => {
         <div className="row g-2">
           <CardItem
             title="Lucky Turn table"
-            image="/assets/images/game/1.png"
+            image="./assets/images/game/1.png"
             urlTarget="/#"
           />
           <CardItem
             title="Smashing Golden Egg"
-            image="/assets/images/game/2.png"
+            image="./assets/images/game/2.png"
             urlTarget="/#"
           />
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Games
